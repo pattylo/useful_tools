@@ -14,7 +14,6 @@
    ./ngrok tcp 22 # for ssh purpose
    chmod +x ngrok.sh
    ./ngrok.sh
-   
 6. Terminal should be showing some information as shown below
    ![alt text](./ngrok.png)
 7. Take the above as instance, on your remote machine, fire up terminal, and input
