@@ -1,8 +1,8 @@
 # tmux Cheat Sheet
 
-## tmux is basically a more powerful terminal that allows users to fire up multi-session. This Markdown file serves as a cheat sheet for operating tmux.
+## **tmux** is basically a more powerful terminal that allows users to fire up multi-session. It is particularly usefull when doing multi-session-required tasks such as ssh to a remote server. This Markdown file serves as a cheat sheet for operating tmux.
 
-1. tmux installation
+1. **tmux installation**
    ```
    # Ubuntu
    sudo apt-get install tmux
@@ -17,7 +17,7 @@
    tmux
    ```
    
-2. Navigating through sessions 
+2. **Navigating through sessions**
     
     function | shortcut
     ---|---
@@ -32,9 +32,8 @@
     attach sessions | tmux attach-session -t #no.
     kill all sessions | tmux kill-window -t #no.
 
-       |   | 
 
-3. Navigating through panels
+3.  **Navigating through panels**
    
    function | shortcut
     ---|---
