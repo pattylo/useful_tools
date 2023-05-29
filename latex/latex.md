@@ -17,7 +17,7 @@
 3. Install LaTex Workshop
 
 ## for Windows
-1. Visit [here](https://www.tug.org/texlive/acquire-netinstall.html]) to install LaTex dependancies
+1. Visit [here](https://www.tug.org/texlive/acquire-netinstall.html]) to install LaTex dependencies
 2. Restart
 3. Install VsCode
 4. Install LaTex Workshop
