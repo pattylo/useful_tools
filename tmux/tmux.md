@@ -28,19 +28,20 @@
     navigate to specific session | ctrl + b + #no.
     detach sessions | ctrl + b + d
     find sessions | ctrl + b + f
+    rename session | ctrl + b + ,
     list sessions | tmux list-sessions  
     attach sessions | tmux attach-session -t #no.
     kill all sessions | tmux kill-window -t #no. / ctrl + b + &
+    
 
 
-3.  **Navigating through panels**
-   
-   function | shortcut
+3.  **Navigating through panes**
+    function | shortcut
     ---|---
-    split horizontally | ctrl + b + %
+    split horizontally | ctrl + b + -%
     split vertically |ctrl + b + "
-    close panel | ctrl + b + x
-    navigate to neighbor panels | ctrl + b + #arrow
+    close pane | ctrl + b + x
+    navigate to neighbor panes | ctrl + b + #arrow
 
 4. kill tmux
    ```
