@@ -30,7 +30,7 @@
     find sessions | ctrl + b + f
     list sessions | tmux list-sessions  
     attach sessions | tmux attach-session -t #no.
-    kill all sessions | tmux kill-window -t #no.
+    kill all sessions | tmux kill-window -t #no. / ctrl + b + &
 
 
 3.  **Navigating through panels**
