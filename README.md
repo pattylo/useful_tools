@@ -3,6 +3,7 @@
 - to read Markdown, could fire up VsCode and install [**Markdown All in One**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) in extension market
 <!-- some useful tools -->
 - There're
+  - VScode + GitHub Practice. [here](./vscode_github/vscode_github.md)
   - Remote Access and Control. [here](./remote/Remote.md)
     - Ngrok
     - Anydesk
