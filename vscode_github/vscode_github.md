@@ -25,17 +25,19 @@ We have tried our best to stupidify it, it should be straight forward. So please
    
    Below take repo [E2ES](https://github.com/HKPolyU-UAV/E2ES) as example. After git-cloning it, in VScode >> select "Open Folder" >> select the cloned "E2ES" >> OPEN.
    
+   
       ![alt text](media/vscode_select_file.jpg)
 
 4. **.vscode**
    
+   
    If all the setup are right, you should be able to see the following:
-    ".vscode" config. This allows us to have the basic code editing features such as code completion, parameter info, quick info, member lists and so forth. There are actually more functionalities such as debugging for you to explore; yet, personally, I am not a big fan of those. The code assistant should have sufficed in general. 
+    ".vscode" config. *Note that the suggested practice is to launch VScode at the same folder of ".git"; hence ".vscode" and ".git" should be within the same directory. For GitHub setup, please refer to next session.* The ".vscode" allows us to have the basic code editing features such as code completion, parameter info, quick info, member lists and so forth. There are actually more functionalities such as debugging for you to explore; yet, personally, I am not a big fan of those. The code assistant should have sufficed in general. 
         
     ![alt text](media/vscode_config.jpg)
 
 5. **Compilation**
-   For compilation, I tried the ROS plugin in VScode, yet not a hugest fan of it. Instead, I just launch a terminal and to ```catkin_make```, I think its faster LOL.
+   For compilation, As mentioned, I tried the ROS plugin in VScode, yet not a hugest fan of it. Instead, I just launch a terminal and to ```catkin_make```, I think its faster and more effieient.
 
 ## Github
    It is deemed that using GitHub with VScode is one of the most convenient practice during coding process, as we don't have to repeatedly type in git commandline to pull, commit, create branch/tag and others. Below shows the setup procedure.
