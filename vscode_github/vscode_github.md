@@ -35,7 +35,7 @@ We have tried our best to stupidify it, it should be straight forward. So please
     ![alt text](media/vscode_config.jpg)
 
 5. **Compilation**
-   For compilation
+   For compilation, I tried the ROS plugin in VScode, yet not a hugest fan of it. Instead, I just launch a terminal and to ```catkin_make```, I think its faster LOL.
 
 ## Github
    It is deemed that using GitHub with VScode is one of the most convenient practice during coding process, as we don't have to repeatedly type in git commandline to pull, commit, create branch/tag and others. Below shows the setup procedure.
