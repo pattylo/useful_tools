@@ -80,7 +80,7 @@ We have tried our best to stupidify it, it should be straight forward. So please
      As for the details, we'll just leave you to the Internet. Should not be that complicated.
 
 ## Remote SSH
-One of the best feature, as far as we are concerned, is remote ssh. This function basically allows you to code remotely anywhere, with the right ssh configuration.
+One of the best feature of VScode, as far as we are concerned, is remote ssh. This function basically allows you to code remotely anywhere, with the right ssh configuration.
 
 1. **Download**
    
