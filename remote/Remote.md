@@ -19,6 +19,14 @@
 7. Take the above as instance, on your remote machine, fire up terminal, and input
    ```
    ssh patty@0.tcp.ap.ngrok.io -p12905 
+   ```
+   You can even send message using ssh with ngrok as follows:
+   ```
+   sudo scp -P {port_number} {file_name} {username}@0.tcp.jp.ngrok.io:{directory_localtion}
+
+   # if you want to send a folder, can do the following first
+   zip -r {filename}.zip {filename}
+   ```
 8. Input your passcode, and voila! You are now able to code anywhere!
 
 ## Anydesk
