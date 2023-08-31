@@ -38,9 +38,16 @@
     ```
     git branch {new branch-name}
     git branch # check all branches
-    git switch {branch-name}
+    git switch {branch-name} || git checkout {branch-name}
     git push -u origin {branch-name}
     ```
     
 5. **Pull Request**
    
+6. **Others**
+   
+   Undo last commit 
+   ```
+   git reset --soft HEAD~
+   ```
+
