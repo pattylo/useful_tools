@@ -51,3 +51,9 @@
    git reset --soft HEAD~
    ```
 
+   View what has been change without doing anything on the locals; ```git pull``` will really modifiy the local files.
+   ```
+   git fetch
+   ```
+
+
