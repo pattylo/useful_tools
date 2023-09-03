@@ -17,31 +17,35 @@
    tmux
    ```
    
-2. **Navigating through sessions**
+2. **Navigating through sessions and windows**
+
+    First note that server >> session >> window >> pane
     
     function | shortcut
     ---|---
-    before action | ctrl + b  
-    create session|ctrl + b + c 
-    navigate to next session |ctrl + b + n
-    navigate to previous session |ctrl + b + p
-    navigate to specific session | ctrl + b + #no.
+    before action | ctrl + b
+    ---|---
     detach sessions | ctrl + b + d
-    find sessions | ctrl + b + f
-    rename session | ctrl + b + ,
-    list sessions | tmux list-sessions  
-    attach sessions | tmux attach-session -t #no.
-    kill all sessions | tmux kill-window -t #no. / ctrl + b + &
-    
-
+    kill all sessions (kill tmux server) | tmux kill-server 
+    list sessions | tmux ls 
+    attach sessions | tmux attach -t #no.
+    tmux kill-session -t #no
+    ---|---
+    create window | ctrl + b + c 
+    navigate to next window |ctrl + b + n
+    navigate to previous window |ctrl + b + p
+    navigate to specific window | ctrl + b + #no.
+    find window | ctrl + b + f
+    rename window | ctrl + b + ,
 
 3.  **Navigating through panes**
     function | shortcut
     ---|---
-    split horizontally | ctrl + b + -%
+    split horizontally | ctrl + b + %
     split vertically |ctrl + b + "
     close pane | ctrl + b + x
     navigate to neighbor panes | ctrl + b + #arrow
+    scroll up lines | ctrl + b + [
 
 4. kill tmux
    ```

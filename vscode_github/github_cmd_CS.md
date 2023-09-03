@@ -19,6 +19,7 @@
    ```
 2. **General Commit**
    ```
+   git reset --hard # discard changes
    git status
    git add .
    git commit -a || git commit -m "{message}" # (quit vim: esc + ":wq")
