@@ -11,7 +11,10 @@
 ## for Ubuntu
 1. Fire up terminal
    ```
-    sudo apt install texlive-latex-extra
+   sudo apt install texlive-latex-extra
+   sudo apt install texlive-extra-utils
+   sudo apt install latexmk
+   sudo apt-get install -y texlive-science
    ```
 2. Install VsCode
 3. Install LaTex Workshop
